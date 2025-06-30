@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rhythm & Routine</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="mainBox">
+    <h1>Rhythm & Routine</h1>
+    <div id="categorySection">
+      <button class="categoryBtn" data-category="selfcare">Self-Care & Wellness</button>
+      <button class="categoryBtn" data-category="focus">Focus & Learning</button>
+      <button class="categoryBtn" data-category="chores">Daily Chores</button>
+      <button class="categoryBtn" data-category="fitness">Fitness & Energy</button>
+      <button class="categoryBtn" data-category="relax">Relaxation</button>
+      <button class="categoryBtn" data-category="digital">Digital Balance</button>
+    </div>
+<!-- Mute Button -->
+<button id="muteBtn" class="icon-button">🔊</button>
+
+<!-- Main content... -->
+
+<!-- Theme Switch (fixed bottom) -->
+<div id="themeContainer">
+  <label id="themeLabel" for="themeSwitch">☼ Light Mode</label>
+  <input type="checkbox" id="themeSwitch" />
+</div>
+
+    <div id="taskSection" style="display:none;">
+      <h2 id="taskTitle"></h2>
+      <div id="taskGrid"></div>
+      <button id="backToCategories">← Back to Categories</button>
+    </div>
+    <div id="timerSection" style="display:none;">
+      <div id="stickerContainer" class="sticker-box"></div>
+      <h2 id="selectedTaskName"></h2>
+      <div id="timerStickerBox">
+  <img id="timerSticker" src="" alt="Task Sticker" />
+</div>
+
+      <div id="timerDisplay">00:00</div>
+      <div id="motivationalMessage"></div>
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn" style="display:none;">Pause</button>
+      <button id="resumeBtn" style="display:none;">Resume</button>
+      <button id="restartBtn">Restart</button>
+      <button id="backToTasks">← Back to Tasks</button>
+    </div>
+    <audio id="backgroundMusic" src="assets/music/soft-piano.mp3" loop></audio>
+    <audio id="beepSound" src="assets/music/chime.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
