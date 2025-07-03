@@ -55,17 +55,9 @@ Rhythm-Routine/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/rhythm-routine.git
+git clone https://github.com/sanketbhuite/rhythm-routine.git
 cd rhythm-routine
 ```
-
-### 2. Run on local server (PHP required)
-
-If you're using XAMPP/MAMP:
-
-- Place the project folder in the `htdocs` directory.
-- Start Apache (and MySQL if using reminders feature).
-- Visit `http://localhost/rhythm-routine/index.html`
 
 ---
 
@@ -94,8 +86,7 @@ Contributions are welcome! Feel free to fork the project, submit issues, or sugg
 
 For suggestions or collab ideas, reach out to:
 **Pranjali Rajguru**  
-📧 [Your Email Here]  
-🌐 [Optional: Portfolio or GitHub link]
+📧 pranjalirajguru2003@gmail.com
 
 ---
 
