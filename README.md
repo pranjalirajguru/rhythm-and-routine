@@ -55,7 +55,7 @@ Rhythm-Routine/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sanketbhuite/rhythm-routine.git
+git clone https://github.com/pranjalirajguru/rhythm-routine.git
 cd rhythm-routine
 ```
 
