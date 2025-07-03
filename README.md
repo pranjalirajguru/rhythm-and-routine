@@ -23,7 +23,6 @@
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
-- **Backend:** PHP (for task storage, progress tracking, and reminders)
 - **Media:** Background music, beep audio, GIF stickers
 - **Design:** Cute aesthetic with clear fonts and soft colors
 
@@ -41,10 +40,6 @@ Rhythm-Routine/
 │   ├── music/           # Background music & sounds
 │   ├── images/          # Backgrounds & stickers
 │   └── quotes.js        # Quotes & motivational messages
-├── php/
-│   ├── save_task.php    # Store custom tasks/progress
-│   ├── reminders.php    # Manage reminders
-│   └── db_connect.php   # DB connection file
 └── README.md            # Project documentation
 ```
 
