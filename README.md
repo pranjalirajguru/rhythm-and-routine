@@ -50,8 +50,8 @@ Rhythm-Routine/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/pranjalirajguru/rhythm-routine.git
-cd rhythm-routine
+git clone https://github.com/pranjalirajguru/rhythm-and-routine.git
+cd rhythm-and-routine
 ```
 
 ---
